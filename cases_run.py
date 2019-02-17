@@ -1,6 +1,6 @@
 #  自动查找testcases目录下，以test_开头的.py文件里面的测试类
 import unittest
-import HTMLTestRunnerNew
+from libext import HTMLTestRunnerNew
 from common import contants
 
 # 找到测试类的测试文件
